@@ -1,0 +1,204 @@
+# ============================================================
+# MIND / Local Language Model
+# ============================================================
+
+# ------------------------------------------------------------
+# Python
+# ------------------------------------------------------------
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.venv-xpu/
+.venv-xpu*/
+.venv-*/
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ------------------------------------------------------------
+# IDE
+# ------------------------------------------------------------
+
+.idea/
+.vscode/
+*.iml
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# ------------------------------------------------------------
+# Datasets / Corpora
+# ------------------------------------------------------------
+
+# All local datasets
+dataset/
+datasets/
+
+# Main corpus
+corpus/
+
+# Taiga
+taiga/
+Taiga/
+
+# Wikipedia
+wikipedia/
+
+# Downloaded raw data
+data/
+raw_data/
+raw/
+downloads/
+
+# Archives containing datasets
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# ------------------------------------------------------------
+# Machine Learning models
+# ------------------------------------------------------------
+
+# Model checkpoints
+checkpoints/
+checkpoint/
+models/
+model/
+weights/
+
+# PyTorch
+*.pt
+*.pth
+*.bin
+
+# HuggingFace / Transformers
+config.json
+tokenizer.json
+tokenizer_config.json
+special_tokens_map.json
+vocab.json
+merges.txt
+
+# Safetensors
+*.safetensors
+
+# ONNX
+*.onnx
+
+# ------------------------------------------------------------
+# Training output
+# ------------------------------------------------------------
+
+runs/
+logs/
+log/
+tensorboard/
+wandb/
+
+# Training checkpoints / temporary files
+*.ckpt
+*.checkpoint
+
+# Generated samples
+samples/
+generated/
+generations/
+
+# ------------------------------------------------------------
+# Tokenizers / vocabulary generated locally
+# ------------------------------------------------------------
+
+vocab/
+tokenizer/
+tokenizers/
+
+*.vocab
+*.model
+
+# ------------------------------------------------------------
+# Caches
+# ------------------------------------------------------------
+
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# HuggingFace cache
+.huggingface/
+.cache/huggingface/
+
+# Torch cache
+.cache/torch/
+
+# ------------------------------------------------------------
+# Temporary files
+# ------------------------------------------------------------
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# ------------------------------------------------------------
+# Local configuration / secrets
+# ------------------------------------------------------------
+
+.env
+.env.*
+!.env.example
+
+# ------------------------------------------------------------
+# Project-specific generated state
+# ------------------------------------------------------------
+
+# Wikipedia graph state
+*_knowledge_graph*.json
+
+# Temporary Wikipedia collector files
+*.json.tmp
+
+# Local training state
+training_state.json
+training_state*.json
+
+# ------------------------------------------------------------
+# Large local files
+# ------------------------------------------------------------
+
+*.csv
+*.jsonl
+*.parquet
+*.pkl
+*.pickle
+
+# ------------------------------------------------------------
+# Keep empty directories out of Git
+# ------------------------------------------------------------
+
+*.directory
